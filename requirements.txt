@@ -1,0 +1,12 @@
+langchain
+langchain-core
+langchain-groq
+groq
+python-dotenv
+flask
+flask-cors
+flask-socketio
+supabase
+sqlparse
+gunicorn
+gevent-websocket

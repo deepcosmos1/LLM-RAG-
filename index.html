@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+</head>
+<body>
+
+    <div class="pyramid-loader" id="chatbot-icon">
+        <div class="wrapper">
+            <span class="side side1"></span>
+            <span class="side side2"></span>
+            <span class="side side3"></span>
+            <span class="side side4"></span>
+            <span class="shadow"></span>
+        </div>
+    </div>
+    
+    <div id="chatbot-container">
+        <div id="chatbot-header">
+            <span>Housekeeping Satellite AI </span>
+            <span id="close-chatbot"> &times;</span>
+        </div>
+        <div id="chatbot-messages">
+        </div>
+        <div id="chatbot-input">
+            <input type="text" id="user-input" placeholder="Ask me something..">
+            <button id="send-message">Go</button>
+        </div>
+    
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
